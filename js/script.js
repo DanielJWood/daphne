@@ -13,7 +13,6 @@ $(document).ready(function(){
 
 $(window).on("load", function() {
 	$("body").fadeIn(2000)
-	// console.log("test3")
 });
 
 $(document).scroll(function() {
@@ -31,19 +30,7 @@ $(document).scroll(function() {
 
 })
 
-// var song = new Audio('../files/good-foot.mp3');
 
-// $("#hitme").mouseover(function(){
-// 	if (i===0) {
-// 		song.play();
-// 		i+=1;
-// 		setInterval(function () {
-// 	        song.pause();
-// 	    // },5625);
-// 	    },5625);
-
-// 	}
-// })
     var hashTagActive = "";
     $(".scroll").on("click touchstart" , function (event) {
         if(hashTagActive != this.hash) { //this will prevent if the user click several times the same link to freeze the scroll.
