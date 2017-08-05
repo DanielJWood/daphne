@@ -6,9 +6,17 @@ layout: default
 		<!-- Intro information -->
 		<div class="row">
 		  <div class="large-12 columns">    
-		    <!-- {% include intro.html %} -->
-		    {% capture my-include %}{% include intro.md %}{% endcapture %}
-		  	{{ my-include | markdownify }}
+		  	<div class="large-6 columns daph-img no-left-right">
+		  		<img src="/images/daphne.png">
+		  	</div>
+		  	<div class="large-6 columns shim-2">
+		  		<h1>Daphne Tan</h1>		
+		  	</div>
+
+		  	<div class="large-12 columns no-left-right">
+		  		{% capture my-include %}{% include intro.md %}{% endcapture %}
+		  		{{ my-include | markdownify }}	
+		  	</div>
 		  </div>
 		</div>
 

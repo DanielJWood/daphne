@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
+<div class="">
+	<img  class="full-img" src="{{ page.image_path }}" />
+</div>
 <div class="row">
-  <div class="large-12 columns">  
+  <div class="large-12 columns">   	
   	<div class="medium-10 small-centered columns">
-  	<img src="{{ page.image_path }}" />
   	{% include breadcrumb.html %}
     {{ content }}    
     </div>

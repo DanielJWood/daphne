@@ -4,9 +4,8 @@ h1, h2, h3, h4, h5, .karla {
     font-family: 'Karla', sans-serif;    
 }
 
-h1 {
+h1, h2 {
 	font-weight: 700;
-
 }
 
 p, .roboto, div {
@@ -33,15 +32,11 @@ div.large-12.columns {
 
 .home img {
 	cursor: pointer;
-	-webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
-	box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
 }
 
-.home img:hover {
-	-webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+.home .daph-img {
+	width: 100px;
+	height: 100px;
 }
 
 div.large-12.columns p img {
@@ -69,3 +64,11 @@ div.large-12.columns p img {
 	padding-top: 0px;
 }
 
+.full-img {
+	width: 100%;
+}
+
+.no-left-right {
+	padding-left: 0px;
+	padding-right: 0px;
+}
