@@ -1,9 +1,61 @@
 ---
 layout: default
 ---	
-
 <div class="row">
-  <div class="large-12 columns">
-    <h1>Welcome to Foundation</h1>
-  </div>
+	<div class="large-10 small-centered columns home">    		
+		<!-- Intro information -->
+		<div class="row">
+		  <div class="large-12 columns">    
+		    <!-- {% include intro.html %} -->
+		    {% capture my-include %}{% include intro.md %}{% endcapture %}
+		  	{{ my-include | markdownify }}
+		  </div>
+		</div>
+
+		<div class="row">
+		  <div id="top-priority" class="large-12 columns">    
+				<div class="grid">
+					{% for work in site.work %}
+						{% if work.priority == 'high' %}
+							<figure class="effect-bubba">
+								<img src="{{ work.image_path }}" />
+								<figcaption>
+									<!-- <h2>Fresh <span>Bubba</span></h2> -->
+									<h2>{{ work.title }}</h2>
+									<p>{{ work.slug }}</p>
+									<a href="{{ work.url }}">View more</a>
+								</figcaption>			
+							</figure>
+						{% endif %}				  
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+
+		<!-- Posts about your great great work -->
+
+		<div class="row">
+		  <div id="low-priority" class="large-12 columns">    
+				<div class="grid">
+					{% for work in site.work %}
+						{% if work.priority == 'low' %}							
+							<figure class="effect-bubba">
+								<img src="{{ work.image_path }}" />
+								<figcaption>
+									<!-- <h2>Fresh <span>Bubba</span></h2> -->
+									<h2>{{ work.title }}</h2>
+									<!-- <p>Bubba likes to appear out of thin air.</p> -->
+									<a href="{{ work.url }}">View more</a>
+								</figcaption>			
+							</figure>
+						{% endif %}				  
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Social links and footer -->
+		{% include footer.html %}
+	</div>
 </div>
