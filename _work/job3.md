@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Community Design & Development
-image_path: /images/stock/3.jpeg
+image_path: images/stock/3.jpeg
 slug: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 priority: low
 ---

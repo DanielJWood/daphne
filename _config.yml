@@ -2,6 +2,7 @@ name: Daphne Tan's Portfolio Website
 author: Daphne Tan
 # author_email: 
 exclude: [files/pngs, index_old.html]
+baseurl: /daphne
 collections:  
   work:
     output: true

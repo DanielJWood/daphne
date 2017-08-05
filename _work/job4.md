@@ -1,7 +1,7 @@
 ---
 layout: work
 title: MakerMakes
-image_path: /images/stock/4.jpeg
+image_path: images/stock/4.jpeg
 slug:  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
 priority: low
 ---
@@ -42,4 +42,4 @@ The bottom navigation is made up of: speech-to-text, ingredients list, home, fav
 
 
 
-Note: Images from [Sprouted Kitchen](http://www.sproutedkitchen.com/)
+Note:Images from [Sprouted Kitchen](http://www.sproutedkitchen.com/)
