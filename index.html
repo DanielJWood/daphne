@@ -3,17 +3,26 @@ layout: default
 ---	
 <div class="row">
 	<div class="large-10 small-centered columns home">    		
+		
 		<!-- Intro information -->
 		<div class="row">
+		  <div id="headline" class="large-12 columns">    
+		  	<div class="small-8 columns shim-2 no-left-right">
+			  	<div class="daph-img floatleft hide-for-small-only">
+			  		<img src="images/daphne.png">
+			  	</div>
+			  	<div  class="floatleft headline">
+			  		<h1>Daphne Tan</h1>		
+			  	</div>		  		
+		  	</div>
+		  	<div id="right-nav" class="small-4 columns shim-2 end headline">
+		  		<a>resume</a> | <a href="mailto:dtan311@gmail.com">email</a> 
+		  	</div>
+		 </div>
+		</div>
+		<div class="row">
 		  <div class="large-12 columns">    
-		  	<div class="large-6 columns daph-img no-left-right">
-		  		<img src="images/daphne.png">
-		  	</div>
-		  	<div class="large-6 columns shim-2">
-		  		<h1>Daphne Tan</h1>		
-		  	</div>
-
-		  	<div class="large-12 columns no-left-right">
+		  	<div class="no-left-right">
 		  		{% capture my-include %}{% include intro.md %}{% endcapture %}
 		  		{{ my-include | markdownify }}	
 		  	</div>
@@ -53,7 +62,7 @@ layout: default
 									<!-- <h2>Fresh <span>Bubba</span></h2> -->
 									<h2>{{ work.title }}</h2>
 									<!-- <p>Bubba likes to appear out of thin air.</p> -->
-									<a href="{{ work.url }}">View more</a>
+									<a href="{{site.baseurl}}/{{ work.url }}">View more</a>
 								</figcaption>			
 							</figure>
 						{% endif %}				  
@@ -61,9 +70,8 @@ layout: default
 				</div>
 			</div>
 		</div>
-
-
 		<!-- Social links and footer -->
 		{% include footer.html %}
+
 	</div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: work
 title: MakerMakes
-image_path: images/stock/4.jpeg
+image_path: /daphne/images/stock/4.jpeg
 slug:  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
 priority: low
 ---

@@ -1,7 +1,7 @@
 ---
 layout: work
 title: MicroStrategy Marketplace
-image_path: images/stock/2.jpeg
+image_path: /daphne/images/stock/2.jpeg
 slug:  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
 priority: high
 ---

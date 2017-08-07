@@ -1,15 +1,15 @@
 ---
 layout: work
-title: Reimagining MicroStrategy
+title: This is a new Thing
 image_path: /daphne/images/stock/1.jpeg
-slug: Reconfiguring the accessibility of main actions in the MicroStrategy Desktop interface.
-priority: high
+slug: This is our super cool subtitle.
+priority: low
 ---
 
 <!-- https://unsplash.it/200/300 -->
-## {{ page.title }}
+## This is a new Thing
 
-### {{ page.slug }}
+### This website has been promised for a long time im so sorry
 
 ![](/daphne/images/reimaginingmstr-main.jpeg)
 

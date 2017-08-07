@@ -1,7 +1,7 @@
 ---
 layout: work
 title: EduInsider
-image_path: images/stock/5.jpeg
+image_path: /daphne/images/stock/5.jpeg
 slug:  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
 priority: low
 ---

@@ -26,10 +26,6 @@ div.large-12.columns {
     position: relative;*/
 }
 
-.home {
-	margin-top: 50px;
-}
-
 .home img {
 	cursor: pointer;
 }
@@ -37,6 +33,7 @@ div.large-12.columns {
 .home .daph-img {
 	width: 100px;
 	height: 100px;
+	margin-right: 20px;
 }
 
 div.large-12.columns p img {
@@ -66,9 +63,40 @@ div.large-12.columns p img {
 
 .full-img {
 	width: 100%;
+	opacity: 0.4
 }
 
 .no-left-right {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+#right-nav {
+	text-align: right !important;
+}
+
+.floatleft {
+	float: left;
+}
+
+.headline, .headline h1 {
+	line-height: 50px;
+}
+
+.header-images {
+	background-color: #086954;
+}
+
+.bottom-photo {
+	max-height: 50%;
+}
+
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+	.home {
+		margin-top: 50px;
+	}
+	.headline, .headline h1 {
+		line-height: 100px;
+	}
 }
